@@ -1,2 +1,2 @@
-# cesar-cipher
-cesar cipher written in Go
+# caesar-cipher
+caesar cipher written in Go
