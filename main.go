@@ -37,7 +37,6 @@ func encode(t string) string  { return cipher(t, -1) }
 func decoded(t string) string { return cipher(t, +1) }
 
 func main() {
-	fmt.Printf("Ceaser cipher")
 	if len(os.Args) < 2 {
 		log.Fatalln("You must pass the message to encode/decode")
 	}
